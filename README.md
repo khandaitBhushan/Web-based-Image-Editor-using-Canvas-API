@@ -18,7 +18,7 @@ A simple and intuitive image editor built using **HTML**, **CSS**, and **JavaScr
 
 ## 📸 Demo
 
-🔗 [Live Demo]([https://yourusername.github.io/image-editor](https://khandaitbhushan.github.io/Web-based-Image-Editor-using-Canvas-API/))
+🔗 [Live Demo](https://khandaitbhushan.github.io/Web-based-Image-Editor-using-Canvas-API/)
 
 ---
 
