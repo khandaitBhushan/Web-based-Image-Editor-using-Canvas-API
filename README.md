@@ -38,14 +38,11 @@ A simple and intuitive image editor built using **HTML**, **CSS**, and **JavaScr
 
 ---
 
-## 📁 Folder Structure
-
-
----
 
 ## 📌 Future Improvements
 
-- Add download option for edited images
+- Add JPEJ to PNG and vice-versa
+- Compress images to given size
 - Add crop and brightness tools
 - Convert to a full-stack web app
 
