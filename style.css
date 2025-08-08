@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+main {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(30, 144, 255, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#canvas {
+  max-width: 100%;
+  max-height: 600px; 
+  border: 2px solid dodgerblue;
+  display: block;
+  margin: 20px auto;
+}
+
+
+
+main:hover {
+  box-shadow: 0 0 25px rgba(30, 144, 255, 0.4);
+  transform: scale(1.01);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: dodgerblue;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  font-weight: bold;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+label:hover {
+  color: dodgerblue;
+}
+
+input[type="file"] {
+  display: block;
+  margin-bottom: 1rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  accent-color: dodgerblue;
+  transition: filter 0.3s;
+}
+
+input[type="range"]:hover,
+input[type="file"]:hover {
+  filter: brightness(1.2);
+}
+
+.canvasContainer {
+  display: none;
+  margin: 1.5rem 0;
+  border: 2px dashed #444;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#controls {
+  margin-top: 1rem;
+}
+
+button#download {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#download:hover {
+  background-color: #1e90ffcc;
+}

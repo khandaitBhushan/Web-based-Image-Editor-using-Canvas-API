@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageEditor</title>
+    <link rel="Stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+
+      <div class="container"></div>
+
+      <h1>Simple Image Editor</h1>
+      
+      <label for="upload">Upload Image</label>
+      <input type="file" id="upload" accept="Image/*" />
+
+      <div class="canvasContainer">
+        <canvas id="canvas"></canvas>
+      </div>
+
+      <div id ="controls">
+        <label for="brightness">Brightness</label>
+        <input type="range" id="brightness" min="0" max="200" value="100" />
+
+        <label for="contrast">Contrast</label>
+        <input type="range" id="contrast" min="0" max="200" value="100" />
+
+        <label for="grayscale">Grayscale</label>
+        <input type="range" id="grayscale" min="0" max="100" value="0" />
+
+        <button id="download">Download Image</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
